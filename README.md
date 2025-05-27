@@ -3,8 +3,11 @@
 ## Instalación
 1. Clone el repositorio
 2. pip install fastapi uvicorn
-3. uvicorn main:app --reload (para inicilizar app)
-4. pip install fastapi uvicorn sqlalchemy (opcional)
+3. pip install jinja2
+4. pip install localStoragePy
+5. pip install python-multipart
+6. uvicorn main:app --reload (para inicializar app)
+7. pip install fastapi uvicorn sqlalchemy (opcional)
 
 ## Uso
 - Acceder a http://127.0.0.1:8000/
