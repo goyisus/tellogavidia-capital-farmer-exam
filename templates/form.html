@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario de Cotización</title>
+</head>
+<body>
+    <h2>Solicitud de Cotización</h2>
+    <form action="/submit" method="post">
+        <label for="nombre">Nombre del Cliente:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="servicio">Tipo de Servicio:</label>
+        <select id="servicio" name="servicio">
+            <option value="1">Constitución de empresa</option>
+            <option value="2">Defensa laboral</option>
+            <option value="3">Consultoría tributaria</option>
+        </select><br><br>
+
+        <label for="descripcion">Descripción del Caso:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Generar Cotización</button>
+    </form>
+</body>
+</html>
